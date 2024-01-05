@@ -1,0 +1,18 @@
+def app = 'Unknown'
+node('frontend-ssh') {
+    checkout scm
+    stage('installation') {
+        withCredentials([file(credentialsId: 'npm-appointy', variable: 'NPMRC')]) {
+            sh 'cp "$NPMRC"  ./.npmrc'
+            sh 'npm i'
+            sh 'npm run build-storybook'
+        }
+        stage('push') {
+            app = docker.build("waqt-241312/saastack-ui-utils")
+            docker.withRegistry('https://eu.gcr.io', 'gcr:waqt-241312') {
+                app.push("v${env.BUILD_NUMBER}")   
+            }
+        }
+        
+    }
+}

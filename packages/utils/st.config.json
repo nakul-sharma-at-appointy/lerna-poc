@@ -1,0 +1,23 @@
+{
+    "type": "utils",
+    "name": "utils",
+    "graphqlUrl": "https://saastack.io/graphql",
+    "authorEmail": "hariom@appointy.com",
+    "authorName": "Hariom Sharma",
+    "packageName": "@saastack/utils",
+    "graphql": false,
+    "pluralName": "",
+    "singularName": "",
+    "hook": false,
+    "pagination": false,
+    "search": false,
+    "defaultParent": "",
+    "switcher": "",
+    "pubsub": false,
+    "company": "saastack",
+    "url": "https://saastack.io",
+    "uploadUrl": "https://saastack.io/images",
+    "cdnUrl": "",
+    "loginUrl": "https://saastack.io/oidc/sign-in",
+    "logoutUrl": "https://saastack.io/oidc/sign-out"
+}
