@@ -5,8 +5,12 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@types/node": "^20.10.6",
+    "@types/node": "^20.10.7",
     "@types/query-string": "^6.3.0",
     "lerna": "^8.0.1"
+  },
+  "dependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+    "@storybook/react-webpack5": "^7.6.7"
   }
 }

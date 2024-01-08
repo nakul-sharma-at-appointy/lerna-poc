@@ -1,7 +1,9 @@
 import React, { FC } from 'react'
 import { Link, Route, HashRouter as Router, Routes, useRouteMatch, Navigate } from '../'
 
+//@ts-ignore
 const A: FC = () => <>{console.log('render A')}Component A</>
+//@ts-ignore
 const B: FC = () => (
     <>
         {console.log('render B')}Component B <Link to="a">A</Link>{' '}

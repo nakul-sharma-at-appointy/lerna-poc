@@ -6,6 +6,7 @@
         "start": "npm run storybook",
         "build": "gulp build",
         "release": "gulp release",
+        "storybook": "storybook dev -p 6006",
         "build-storybook": "build-storybook",
         "commit": "commit",
         "prepublishOnly": "exit 0",
@@ -109,6 +110,6 @@
         "react-scripts": "5.0.1",
         "storybook": "^7.6.1",
         "typescript": "^5.3.2",
-        "webpack": "^5.89.0"
+        "@pmmmwh/react-refresh-webpack-plugin": "0.5.11"
     }
 }

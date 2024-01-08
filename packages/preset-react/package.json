@@ -1,0 +1,32 @@
+{
+  "name": "@saastack/preset-react",
+  "version": "2.1.4",
+  "description": "React presets for Saastack",
+  "scripts": {
+    "release": "npm publish"
+  },
+  "license": "MIT",
+  "homepage": "https://gitlab.com/saastack/ui/preset-react",
+  "bugs": {
+    "url": "https://gitlab.com/saastack/ui/preset-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/saastack/ui/preset-react.git"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "6.0.1",
+    "fs-extra": "9.0.1",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-env": "0.4.0",
+    "gulp-filter": "6.0.0",
+    "gulp-json-editor": "2.5.4",
+    "gulp-rimraf": "1.0.0",
+    "gulp-shell": "0.8.0",
+    "gulp-transform": "3.0.5",
+    "gulp-typescript": "5.0.1",
+    "lodash": "4.17.15",
+    "minimist": "1.2.5"
+  }
+}
